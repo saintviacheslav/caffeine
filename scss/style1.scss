@@ -1,0 +1,576 @@
+$PrimarycolorText: #fff;
+$SecondarycolorText: #707070;
+$TertiarycolorText: #603809;
+$ButtonPrimary: #F9C06A;
+%Button{
+    border-radius: 24px;
+    font-family: Playfair Display;
+    line-height: 21.33px;
+    border: 0px;
+    background-color: $ButtonPrimary;
+    box-shadow: 0px 6px 12px 0px #F9C06A38;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    max-width: 1180px;
+    margin: auto;
+}
+.head-part{
+    background-image: url(../images/coffee_image.png);
+    background-size: cover;
+    padding: 20px 93px 95px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 116px;
+    & .logo{
+        font-family: Clicker Script;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 46.23px;
+    }
+    & p{
+        color: $PrimarycolorText;
+    }
+    & button{
+        @extend %Button;
+        padding: 14px 27px;
+    }
+    & p, button{
+        font-family: Playfair Display;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18.66px;
+    }
+    .paragraphs{
+        display: flex;
+        gap:42px;
+    }
+    & .sing .link{
+        text-decoration: underline;
+    }
+    & .sing{
+        display: flex;
+        gap: 35px;
+        align-items: center;
+    }
+    & img{
+        display: none;
+    }
+}
+.preview{
+    width: 45%;
+    & p:first-of-type{
+        color: $PrimarycolorText;
+        font-family: Playfair Display;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 29.33px;
+    }
+    & h1{
+        font-family: Clicker Script;
+        font-size: 220px;
+        font-weight: 400;
+        line-height: 290.58px;
+        color: $PrimarycolorText;
+    }
+    & p:last-of-type{
+        color: $PrimarycolorText;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    & button{
+        @extend %Button;
+        padding: 14px 27px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+main .about {
+    padding: 82px 93px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: auto;
+    & .left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        align-items: start;
+        & h1{
+            font-family: Playfair Display;
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 71.98px;
+            color: $TertiarycolorText;
+        }
+        & p{
+            font: 400 20px Playfair Display;
+            line-height: 34px;
+            color: $SecondarycolorText;
+        }
+        & button{
+            padding: 14px 24px;
+            @extend %Button;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 21.33px;
+        }
+    }
+}
+main .catalog{
+    padding: 82px 93px;
+    margin: auto;
+    max-width: 1180px;
+    & h1{
+        font-family: Playfair Display;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 71.98px;
+        color:$TertiarycolorText;
+        text-align: center;
+    }
+    & .top-paragraph{
+        font: 400 20px Playfair Display;
+        line-height: 34px;
+        color: #707070;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+    & .items{
+        display: flex;
+        gap: 20px;
+        & .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #FFF9F1;
+            & img{
+                margin-bottom: 14px;
+            }
+            & .item-info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+                & h2{
+                    font-family: Playfair Display;
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 29.33px;
+                    color: $TertiarycolorText;
+                }
+                & p     {
+                    font-family: Playfair Display;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 21.33px;
+                }
+                & h3{
+                    font-family: Playfair Display;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 23.99px;
+                }
+            }
+            position: relative;
+            padding-bottom: 42px;
+        }
+    }
+    & button{
+        @extend %Button;
+        padding: 14px 26px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.33px;
+        position: absolute;
+        bottom: -26px;
+    }
+
+}
+main .pluses{
+    padding: 82px 93px;
+    text-align: center;
+    & h1{
+        font: 700 54px Playfair Display;
+        line-height: 71.98px;
+        color:$TertiarycolorText;
+        text-align: center;
+    }
+    & .top-paragraph{
+        font: 400 20px Playfair Display;
+        line-height: 34px;
+        color: #707070;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+    & .bottom-paragraph{
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.66px;
+        color: $SecondarycolorText;
+    }
+    & .bottom-h2{
+        font-family: Playfair Display;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 39.99px;
+        color: $TertiarycolorText;
+    }
+    & .items{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 32px;
+        & .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #FFF9F1;
+            padding: 36px 40px;
+            text-align: center;
+            &:first-child{
+                background: #FFEED8;
+            }
+            & img{
+                margin-bottom: 25px;
+            }
+            & .item-info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+                & h2{
+                    font-family: Playfair Display;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 37.32px;
+                    color: $TertiarycolorText;
+                }
+                & p     {
+                    font-family: Playfair Display;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 26.66px;
+                }
+                & h3{
+                    font-family: Playfair Display;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 23.99px;
+                }
+            }
+            position: relative;
+            padding-bottom: 42px;
+        }
+    }
+    & button{
+        @extend %Button;
+        color: #000;
+        padding: 14px 26px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.33px;
+        margin-top: 24px;
+    }
+
+}
+main .cup-coffee{
+    padding: 54px 93px; 
+    background-image: url(/images/Group\ 38.png);
+    background-size: cover;
+    & .cup-coffee-inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & .left{
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        align-items: flex-start;
+        width: 50%;
+    }
+    & h1{
+        font: 700 54px Playfair Display;
+        line-height: 71.98px;
+        color: $PrimarycolorText;
+    }
+    & p{
+        font: 400 20px Playfair Display;
+        font-size: 20px;
+        color: $PrimarycolorText;
+    }
+    & button{
+        @extend %Button;
+        padding: 14px 26px;
+        font: 700 16px Playfair Display;
+        line-height: 21.33px;
+        color: #1E1E1E;
+    }
+}
+main .feedback{
+    padding: 82px 152px;
+    & .title{
+        font: 700 54px Playfair Display;
+        line-height: 71.98px;
+        color: $TertiarycolorText;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    & .title-paragraph{
+        font: 400 20px Playfair Display;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 45px;
+        color: $SecondarycolorText;
+    }
+    & .comment{
+        display: flex;
+        align-items: center;
+        background: #FFF9F1;
+        margin-bottom: 50px;
+    }
+    & .arrow{
+        @extend %Button;
+        display: flex;
+        align-items: center;
+        padding: 29px;
+        position: relative;
+        &:first-child{
+            left: -41px;
+        }
+        &:last-child{
+            right: -41px;
+            & img{
+                transform: scale(-1,1);
+            }
+        }
+    }
+    .center-part{
+        & .kavichki{
+            font: 700 220px Playfair Display;
+            line-height: 112px;
+            padding-top: 54px;
+            color: #603809;
+        }
+        & .main-text{
+            font: 600 18px Playfair Display;
+            line-height: 36px;
+            text-align: center;
+            color: $SecondarycolorText;
+            padding: 0 100px;
+            padding-bottom: 28px;
+        }
+        & .author-info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            & h2{
+                font: 700 32px Playfair Display;
+                font-weight: 700;
+                line-height: 42.66px;
+                color: $TertiarycolorText;
+                margin-bottom: 4px;
+            }
+            & p{
+                font: 400 20px Playfair Display;
+                line-height: 34px;
+                color: $SecondarycolorText;
+            }   
+
+        }
+        & .avatar{
+            position: relative;
+            top: 68px;
+        }
+    }
+}
+main .bg-coffee{
+    background-image: url(/images/Group\ 38.png);
+    background-size: cover;
+    background-position: 30px;
+    height: 374px;
+}
+footer{
+    background-image: url(/images/Group\ 62.png);
+    padding: 162px 93px 50px;
+    background-size: cover;
+    color: $PrimarycolorText;
+    & .footer-inner{
+        display: flex;
+        gap:66px;
+    }
+    & .wrapper{
+        max-width: 1180px;
+        margin: auto;
+    }
+    & .paragraphs{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font: 400 18px Playfair Display;
+        line-height: 42px;
+    }
+    & .paragraphs:last-child{
+        line-height: 24px;
+    }
+    & .part-1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 40%;
+        & h1{
+            font: 400 54px Clicker Script;
+            line-height: 71.32px;
+        }
+        & p{
+            font: 400 14px Playfair Display;
+            line-height: 22px;
+        }
+    }
+    & .part-2, .part-3{
+        & h1{
+            margin-bottom: 55px;    
+        }
+        width: 15%;
+    }
+    & .part-4{
+        & h1{
+            margin-bottom: 31px;
+        }
+        width: 30%;
+    }
+    & .part-2, .part-3, .part-4{
+        & h1{
+            font: 700 26px Playfair Display;
+            line-height: 34.66px;
+        }
+    }
+}
+@media (max-width: 1280px) {
+    main .catalog{
+        .items{
+            justify-content: space-around;
+        }
+        & .item:nth-child(3) , .item:nth-child(4){
+            display: none;
+        }
+    }
+    main .about{
+        & .left{
+            & h1{
+                font-size: 36px;
+                line-height: 48px;
+            }
+            & p{
+                font-size: 16px;
+                line-height: 24px;
+            }
+        } 
+        & img{
+            width: 350px;
+        }
+    }
+    main .pluses{
+        & .items{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+        }
+    }
+    main .bg-coffee{
+        display: none;
+    }
+    main .feedback{
+        padding: 41px 76px;
+        & .comment .kavichki{
+            font-size: 100px;
+        }
+        & .comment .main-text{
+            padding: 10px;
+        }
+        & .avatar{
+            width: 100px;
+            position: relative;
+            top: 20px;
+        }
+    }
+}
+@media (max-width: 800px) {
+    header .paragraphs, header .sing{
+        display: none;
+    }
+    header img{
+        display: block;
+    }
+    .head-part{
+        padding: 20px 40px;
+        background-position: center;
+        & .preview{
+            & h1{
+                font-size: 140px;
+            }
+        }
+    }
+    main .about{
+        justify-content: center;
+        padding: 20px 40px;
+        & .left{
+            width: 100%;
+        }
+        & .right{
+            display: none;
+        }
+    }
+    main .catalog{
+        padding: 20px 40px;
+    }
+    main .pluses{
+        padding: 20px 40px;
+    }
+    main .cup-coffee{
+        padding: 20px 40px;
+        & h1{
+            font-size: 30px;
+            line-height: 36px;
+        }
+        & img{
+            width: 180px;
+        }
+    }
+    main .feedback{
+        padding: 20px 50px;
+    }
+    footer{
+        padding: 20px 40px;
+        & .part-1, .part-2, .part-3, .part-4{
+            & h1{
+                margin-bottom: 20px;
+            }
+        }
+        & .footer-inner{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            grid-column-gap: 100px;
+            grid-row-gap: 40px;
+        }
+        & .part-1, .part-2, .part-3, .part-4{
+            width: 100%;
+        }
+        background-size: 300%;
+    }
+}

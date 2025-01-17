@@ -1,0 +1,503 @@
+@import "../scss/variables.scss";
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.head {
+   background-image: url(../images/coffee_image.svg);
+   background-size: cover;
+   width: 100%;
+   padding-bottom: 95px;
+
+   .wrap {
+      max-width: 1366px;
+      margin: auto
+   }
+
+   header {
+      padding: 21px 93px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .title p {
+         font: 400 35px Clicker Script;
+         color: $PrimarycolorText;
+      }
+
+      .links {
+         display: flex;
+         gap: 60px;
+      }
+
+      .sign {
+         display: flex;
+         gap: 35px;
+         align-items: center;
+      }
+
+      .links p,
+      .sign p {
+         font: 500 14px Playfair Display;
+         color: $PrimarycolorText;
+      }
+
+      .sign p {
+         &:last-child {
+            color: rgba(30, 30, 30, 1);
+            box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+            background: rgba(249, 192, 106, 1);
+            border-radius: 24px;
+            padding: 14px 27px 15px;
+         }
+
+      }
+   }
+
+   .preview {
+      margin-top: 116px;
+      display: flex;
+      flex-direction: column;
+      max-width: 527px;
+
+      p {
+         color: $PrimarycolorText;
+
+         &:first-child {
+            font: 500 22px Playfair Display;
+         }
+
+         &:last-of-type {
+            font: 400 20px Playfair Display;
+            padding-bottom: 20px;
+         }
+      }
+
+      h1 {
+         font: 400 220px Clicker Script;
+         color: $PrimarycolorText;
+      }
+
+      button {
+         font: 700 16px Playfair Display;
+         box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+         background: $ButtonPrimary;
+         border-radius: 24px;
+         border: 0;
+         max-width: 134px;
+         padding: 14px 0;
+      }
+   }
+}
+
+main .best_coffee {
+   max-width: 1366px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 82px 93px 82px;
+
+   .left {
+      max-width: 585px;
+      display: flex;
+      flex-direction: column;
+      gap: 29px;
+   }
+
+   h3 {
+      font: 700 54px Playfair Display;
+      color: $TertiarycolorText;
+
+   }
+
+   p {
+      font: 400 20px Playfair Display;
+      color: $SecondarycolorText;
+
+   }
+
+   button {
+      font: 700 16px Playfair Display;
+      box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+      background: $ButtonPrimary;
+      border-radius: 24px;
+      border: 0;
+      max-width: 134px;
+      padding: 14px 0;
+   }
+}
+
+main .menu,
+main .facili {
+   // gap:20px;
+   max-width: 1180px;
+   margin: auto;
+   padding: 0 93px 82px;
+
+   .up {
+      text-align: center;
+
+      h2 {
+         font: 700 54px Playfair Display;
+         color: $TertiarycolorText;
+         padding-bottom: 16px;
+      }
+
+      p {
+         font: 400 20px Playfair Display;
+         color: $SecondarycolorText;
+         padding-bottom: 32px;
+      }
+   }
+
+   .bottom {
+      display: flex;
+      gap: 20px;
+   }
+}
+
+main .menu .coffee {
+   border: 1px solid rgba(249, 192, 106, 0.42);
+   background: rgba(255, 249, 241, 1);
+
+   img {
+      max-width: 280px;
+   }
+
+   display:flex;
+   align-items: center;
+   flex-direction:column;
+   gap:15px;
+
+   h4 {
+      color: $TertiarycolorText;
+      font-family: Playfair Display;
+      font-weight: 700;
+      font-size: 22px;
+
+      &:last-of-type {
+         font-size: 18px;
+      }
+   }
+
+   p {
+      font: 400 16px Playfair Display;
+      color: rgba(30, 30, 30, 1);
+
+   }
+
+   button {
+      position: relative;
+      bottom: -6%;
+      z-index: 1;
+      font: 700 16px Playfair Display;
+      box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+      background: $ButtonPrimary;
+      border-radius: 24px;
+      border: 0;
+      max-width: 134px;
+      padding: 14px 26px;
+   }
+}
+
+
+main .facili .coffee {
+   background: rgba(255, 249, 241, 1);
+   padding: 36px 40px;
+   text-align: center;
+   border: 1px solid rgba(249, 192, 106, 0.42);
+
+   img {
+      max-width: 80px;
+   }
+
+   display:flex;
+   align-items: center;
+   flex-direction:column;
+   gap:15px;
+
+   h4 {
+      color: $TertiarycolorText;
+      font-family: Playfair Display;
+      font-weight: 700;
+      font-size: 28px;
+   }
+
+   p {
+      font: 400 20px Playfair Display;
+      color: $SecondarycolorText;
+
+   }
+
+}
+
+main .facili {
+
+   .deep {
+      padding-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+
+      p {
+         font: 400 20px Playfair Display;
+         color: $SecondarycolorText;
+      }
+
+      h3 {
+         font: 700 30px Playfair Display;
+         color: $TertiarycolorText;
+      }
+
+      button {
+         position: relative;
+         bottom: -6%;
+         z-index: 1;
+         font: 700 16px Playfair Display;
+         box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+         background: $ButtonPrimary;
+         border-radius: 24px;
+         border: 0;
+         max-width: 134px;
+         padding: 14px 26px;
+      }
+   }
+}
+
+.chance {
+
+   background-image: url(../images/Group\ 38.svg);
+   background-size: cover;
+   width: 100%;
+   padding-bottom: 53px;
+}
+
+.chance .wrap {
+   max-width: 1366px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   .right {
+      padding-top: 72px;
+
+      img {
+         max-width: 300px;
+      }
+   }
+
+   .left {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      max-width: 575px;
+   }
+
+   h1 {
+      font: 700 54px Playfair Display;
+      color: $PrimarycolorText;
+   }
+
+   p {
+      font: 400 20px Playfair Display;
+      color: $PrimarycolorText;
+   }
+
+   button {
+      position: relative;
+      bottom: -6%;
+      z-index: 1;
+      font: 700 16px Playfair Display;
+      box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+      background: $ButtonPrimary;
+      border-radius: 24px;
+      border: 0;
+      max-width: 134px;
+      padding: 14px 26px;
+   }
+}
+
+
+
+%Button{
+   border-radius: 24px;
+   font-family: Playfair Display;
+   line-height: 21.33px;
+   border: 0px;
+   background-color: $ButtonPrimary;
+   box-shadow: 0px 6px 12px 0px #F9C06A38;
+}
+main .feedback {
+   padding: 82px 152px;
+
+   & .title {
+      font: 700 54px Playfair Display;
+      line-height: 71.98px;
+      color: $TertiarycolorText;
+      text-align: center;
+      margin-bottom: 16px;
+   }
+
+   & .title-paragraph {
+      font: 400 20px Playfair Display;
+      line-height: 34px;
+      text-align: center;
+      margin-bottom: 45px;
+      color: $SecondarycolorText;
+   }
+
+   & .comment {
+      display: flex;
+      align-items: center;
+      background: #FFF9F1;
+      margin-bottom: 50px;
+   }
+
+   & .arrow {
+      @extend %Button;
+      display: flex;
+      align-items: center;
+      padding: 29px;
+      position: relative;
+
+      &:first-child {
+         left: -41px;
+      }
+
+      &:last-child {
+         right: -41px;
+
+         & img {
+            transform: scale(-1, 1);
+         }
+      }
+   }
+
+   .center-part {
+      & .kavichki {
+         font: 700 220px Playfair Display;
+         line-height: 112px;
+         padding-top: 54px;
+         color: #603809;
+      }
+
+      & .main-text {
+         font: 600 18px Playfair Display;
+         line-height: 36px;
+         text-align: center;
+         color: $SecondarycolorText;
+         padding: 0 100px;
+         padding-bottom: 28px;
+      }
+
+      & .author-info {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+         & h2 {
+            font: 700 32px Playfair Display;
+            font-weight: 700;
+            line-height: 42.66px;
+            color: $TertiarycolorText;
+            margin-bottom: 4px;
+         }
+
+         & p {
+            font: 400 20px Playfair Display;
+            line-height: 34px;
+            color: $SecondarycolorText;
+         }
+
+      }
+
+      & .avatar {
+         position: relative;
+         top: 68px;
+      }
+   }
+}
+
+main .bg-coffee {
+   background-image: url(../images/Group\ 38.svg);
+   background-size: cover;
+   background-position: 30px;
+   height: 374px;
+}
+
+footer {
+   background-image: url(../images/Group\ 62.svg);
+   padding: 162px 93px 50px;
+   background-size: cover;
+   color: $PrimarycolorText;
+
+   & .footer-inner {
+      display: flex;
+      gap: 66px;
+   }
+
+   & .wrapper {
+      max-width: 1180px;
+      margin: auto;
+   }
+
+   & .paragraphs {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      font: 400 18px Playfair Display;
+      line-height: 42px;
+   }
+
+   & .paragraphs:last-child {
+      line-height: 24px;
+   }
+
+   & .part-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 40%;
+
+      & h1 {
+         font: 400 54px Clicker Script;
+         line-height: 71.32px;
+      }
+
+      & p {
+         font: 400 14px Playfair Display;
+         line-height: 22px;
+      }
+   }
+
+   & .part-2,
+   .part-3 {
+      & h1 {
+         margin-bottom: 55px;
+      }
+
+      width: 15%;
+   }
+
+   & .part-4 {
+      & h1 {
+         margin-bottom: 31px;
+      }
+
+      width: 30%;
+   }
+
+   & .part-2,
+   .part-3,
+   .part-4 {
+      & h1 {
+         font: 700 26px Playfair Display;
+         line-height: 34.66px;
+      }
+   }
+}

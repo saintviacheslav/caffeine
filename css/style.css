@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-image: url(../images/coffee_image.svg);
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 95px;
+}
+.head .wrap {
+  max-width: 1366px;
+  margin: auto;
+}
+.head header {
+  padding: 21px 93px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.head header .title p {
+  font: 400 35px Clicker Script;
+  color: #fff;
+}
+.head header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+.head header .sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.head header .links p,
+.head header .sign p {
+  font: 500 14px Playfair Display;
+  color: #fff;
+}
+.head header .sign p:last-child {
+  color: rgb(30, 30, 30);
+  -webkit-box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+          box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  background: rgb(249, 192, 106);
+  border-radius: 24px;
+  padding: 14px 27px 15px;
+}
+.head .preview {
+  margin-top: 116px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 527px;
+}
+.head .preview p {
+  color: #fff;
+}
+.head .preview p:first-child {
+  font: 500 22px Playfair Display;
+}
+.head .preview p:last-of-type {
+  font: 400 20px Playfair Display;
+  padding-bottom: 20px;
+}
+.head .preview h1 {
+  font: 400 220px Clicker Script;
+  color: #fff;
+}
+.head .preview button {
+  font: 700 16px Playfair Display;
+  -webkit-box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+          box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  background: #F9C06A;
+  border-radius: 24px;
+  border: 0;
+  max-width: 134px;
+  padding: 14px 0;
+}
+
+main .best_coffee {
+  max-width: 1366px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 82px 93px 82px;
+}
+main .best_coffee .left {
+  max-width: 585px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 29px;
+}
+main .best_coffee h3 {
+  font: 700 54px Playfair Display;
+  color: #603809;
+}
+main .best_coffee p {
+  font: 400 20px Playfair Display;
+  color: #707070;
+}
+main .best_coffee button {
+  font: 700 16px Playfair Display;
+  -webkit-box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+          box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  background: #F9C06A;
+  border-radius: 24px;
+  border: 0;
+  max-width: 134px;
+  padding: 14px 0;
+}
+
+main .menu,
+main .facili {
+  max-width: 1180px;
+  margin: auto;
+  padding: 0 93px 82px;
+}
+main .menu .up,
+main .facili .up {
+  text-align: center;
+}
+main .menu .up h2,
+main .facili .up h2 {
+  font: 700 54px Playfair Display;
+  color: #603809;
+  padding-bottom: 16px;
+}
+main .menu .up p,
+main .facili .up p {
+  font: 400 20px Playfair Display;
+  color: #707070;
+  padding-bottom: 32px;
+}
+main .menu .bottom,
+main .facili .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+main .menu .coffee {
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  background: rgb(255, 249, 241);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+main .menu .coffee img {
+  max-width: 280px;
+}
+main .menu .coffee h4 {
+  color: #603809;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 22px;
+}
+main .menu .coffee h4:last-of-type {
+  font-size: 18px;
+}
+main .menu .coffee p {
+  font: 400 16px Playfair Display;
+  color: rgb(30, 30, 30);
+}
+main .menu .coffee button {
+  position: relative;
+  bottom: -6%;
+  z-index: 1;
+  font: 700 16px Playfair Display;
+  -webkit-box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+          box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  background: #F9C06A;
+  border-radius: 24px;
+  border: 0;
+  max-width: 134px;
+  padding: 14px 26px;
+}
+
+main .facili .coffee {
+  background: rgb(255, 249, 241);
+  padding: 36px 40px;
+  text-align: center;
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+main .facili .coffee img {
+  max-width: 80px;
+}
+main .facili .coffee h4 {
+  color: #603809;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 28px;
+}
+main .facili .coffee p {
+  font: 400 20px Playfair Display;
+  color: #707070;
+}
+
+main .facili .deep {
+  padding-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .facili .deep p {
+  font: 400 20px Playfair Display;
+  color: #707070;
+}
+main .facili .deep h3 {
+  font: 700 30px Playfair Display;
+  color: #603809;
+}
+main .facili .deep button {
+  position: relative;
+  bottom: -6%;
+  z-index: 1;
+  font: 700 16px Playfair Display;
+  -webkit-box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+          box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  background: #F9C06A;
+  border-radius: 24px;
+  border: 0;
+  max-width: 134px;
+  padding: 14px 26px;
+}
+
+.chance {
+  background-image: url(../images/Group\ 38.svg);
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 53px;
+}
+
+.chance .wrap {
+  max-width: 1366px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.chance .wrap .right {
+  padding-top: 72px;
+}
+.chance .wrap .right img {
+  max-width: 300px;
+}
+.chance .wrap .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 22px;
+  max-width: 575px;
+}
+.chance .wrap h1 {
+  font: 700 54px Playfair Display;
+  color: #fff;
+}
+.chance .wrap p {
+  font: 400 20px Playfair Display;
+  color: #fff;
+}
+.chance .wrap button {
+  position: relative;
+  bottom: -6%;
+  z-index: 1;
+  font: 700 16px Playfair Display;
+  -webkit-box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+          box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  background: #F9C06A;
+  border-radius: 24px;
+  border: 0;
+  max-width: 134px;
+  padding: 14px 26px;
+}
+
+main .feedback .arrow {
+  border-radius: 24px;
+  font-family: Playfair Display;
+  line-height: 21.33px;
+  border: 0px;
+  background-color: #F9C06A;
+  -webkit-box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.2196078431);
+          box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.2196078431);
+}
+
+main .feedback {
+  padding: 82px 152px;
+}
+main .feedback .title {
+  font: 700 54px Playfair Display;
+  line-height: 71.98px;
+  color: #603809;
+  text-align: center;
+  margin-bottom: 16px;
+}
+main .feedback .title-paragraph {
+  font: 400 20px Playfair Display;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 45px;
+  color: #707070;
+}
+main .feedback .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFF9F1;
+  margin-bottom: 50px;
+}
+main .feedback .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 29px;
+  position: relative;
+}
+main .feedback .arrow:first-child {
+  left: -41px;
+}
+main .feedback .arrow:last-child {
+  right: -41px;
+}
+main .feedback .arrow:last-child img {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+main .feedback .center-part .kavichki {
+  font: 700 220px Playfair Display;
+  line-height: 112px;
+  padding-top: 54px;
+  color: #603809;
+}
+main .feedback .center-part .main-text {
+  font: 600 18px Playfair Display;
+  line-height: 36px;
+  text-align: center;
+  color: #707070;
+  padding: 0 100px;
+  padding-bottom: 28px;
+}
+main .feedback .center-part .author-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .feedback .center-part .author-info h2 {
+  font: 700 32px Playfair Display;
+  font-weight: 700;
+  line-height: 42.66px;
+  color: #603809;
+  margin-bottom: 4px;
+}
+main .feedback .center-part .author-info p {
+  font: 400 20px Playfair Display;
+  line-height: 34px;
+  color: #707070;
+}
+main .feedback .center-part .avatar {
+  position: relative;
+  top: 68px;
+}
+
+main .bg-coffee {
+  background-image: url(../images/Group\ 38.svg);
+  background-size: cover;
+  background-position: 30px;
+  height: 374px;
+}
+
+footer {
+  background-image: url(../images/Group\ 62.svg);
+  padding: 162px 93px 50px;
+  background-size: cover;
+  color: #fff;
+}
+footer .footer-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 66px;
+}
+footer .wrapper {
+  max-width: 1180px;
+  margin: auto;
+}
+footer .paragraphs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  font: 400 18px Playfair Display;
+  line-height: 42px;
+}
+footer .paragraphs:last-child {
+  line-height: 24px;
+}
+footer .part-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+footer .part-1 h1 {
+  font: 400 54px Clicker Script;
+  line-height: 71.32px;
+}
+footer .part-1 p {
+  font: 400 14px Playfair Display;
+  line-height: 22px;
+}
+footer .part-2,
+footer .part-3 {
+  width: 15%;
+}
+footer .part-2 h1,
+footer .part-3 h1 {
+  margin-bottom: 55px;
+}
+footer .part-4 {
+  width: 30%;
+}
+footer .part-4 h1 {
+  margin-bottom: 31px;
+}
+footer .part-2 h1,
+footer .part-3 h1,
+footer .part-4 h1 {
+  font: 700 26px Playfair Display;
+  line-height: 34.66px;
+}
